@@ -1,0 +1,45 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  .links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px !important;
+    align-items: center;
+    .link {
+      a {
+        font-family: "Lexend";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        cursor: pointer;
+        /* identical to box height, or 24px */
+
+        /* Black */
+
+        color: #000000;
+      }
+    }
+    .link-btn {
+      width: 127px;
+      cursor: pointer;
+      color: white;
+      height: 44px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 12px 40px;
+      gap: 8px;
+
+      /* primary */
+
+      background: #ee4c15;
+    }
+  }
+  .logo {
+  }
+}
